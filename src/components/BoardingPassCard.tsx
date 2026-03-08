@@ -3,6 +3,7 @@
 import Barcode from "react-barcode";
 import { useRef } from "react";
 import Link from "next/link"
+import { Rocket } from "lucide-react";
 
 export default function BoardingPass() {
 
@@ -51,9 +52,23 @@ export default function BoardingPass() {
                         </div>
                     </div>
 
-                    <div className="text-center relative h-16 flex justify-center items-center">
-                        <div className="text-blue-500 text-8xl absolute -top-5">✈</div>
-                        <div className="border-t-2 border-dashed border-blue-400 mt-1 w-full"></div>
+                    <div className="text-center relative h-16 flex justify-center items-center w-full px-4">
+                        {/* เส้นประหัวลูกศร (Dashed Path) */}
+                        <div className="border-t-2 border-dashed border-blue-400/30 w-full absolute"></div>
+
+                        {/* ยานอวกาศ (Space Shuttle / Rocket) */}
+                        <div className="relative z-10 px-4">
+                            <div className="relative flex items-center justify-center">
+                                {/* เอฟเฟกต์แสงไฟเครื่องยนต์ (Engine Glow) */}
+                                <div className="absolute size-8 bg-blue-500/40 blur-xl rounded-full animate-pulse"></div>
+
+                                {/* ไอคอนยานอวกาศ (เอียง 90 องศาให้เหมือนกำลังบินไปตามเส้น) */}
+                                <Rocket
+                                    size={80}
+                                    className="text-blue-400 fill-blue-400/10 rotate-45 animate-bounce-slow"
+                                />
+                            </div>
+                        </div>
                     </div>
 
                     <div className="grid grid-cols-2 gap-4 mt-6 text-sm">

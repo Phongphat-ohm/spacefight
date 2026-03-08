@@ -5,3 +5,22 @@
 * {
   font-family: "Mitr", sans-serif;
 }
+
+@keyframes printUp {
+  0% {
+    transform: translateY(120%);
+    opacity: 0;
+  }
+
+  60% {
+    opacity: 1;
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.animate-print-up {
+  animation: printUp 1.2s ease-out forwards;
+}
