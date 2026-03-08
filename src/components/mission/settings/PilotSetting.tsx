@@ -12,8 +12,8 @@ export default function PilotSetting() {
                 {/* เส้นประหัวลูกศร (สัญลักษณ์นำสายตา) */}
                 <div className="flex items-center gap-2 mb-8">
                     <div className="size-1.5 bg-blue-400 rounded-full shadow-[0_0_8px_#60a5fa]"></div>
-                    <div className="flex-grow border-t border-dashed border-blue-400/30"></div>
-                    <div className="w-0 h-0 border-y-[4px] border-y-transparent border-l-[8px] border-l-blue-400"></div>
+                    <div className="grow border-t border-dashed border-blue-400/30"></div>
+                    <div className="w-0 h-0 border-y-4 border-y-transparent border-l-8 border-l-blue-400"></div>
                 </div>
 
                 <div className="space-y-6">

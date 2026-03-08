@@ -87,8 +87,8 @@ export default function BoardingPass() {
                 </div>
 
                 <div className="relative border-b-2 border-dashed border-blue-300">
-                    <div className="absolute -left-3 top-[-10px] w-6 h-6 bg-blue-900 rounded-full"></div>
-                    <div className="absolute -right-3 top-[-10px] w-6 h-6 bg-blue-900 rounded-full"></div>
+                    <div className="absolute -left-3 -top-2.5 w-6 h-6 bg-blue-900 rounded-full"></div>
+                    <div className="absolute -right-3 -top-2.5 w-6 h-6 bg-blue-900 rounded-full"></div>
                 </div>
 
                 <div className="p-6 text-center flex flex-col items-center gap-4">

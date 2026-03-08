@@ -73,9 +73,9 @@ export default function PasswordChangeModal() {
 
                                 {/* เส้นประเล็กๆ คั่นกลาง */}
                                 <div className="flex items-center gap-2 opacity-30 py-1">
-                                    <div className="flex-grow border-t border-dashed border-white"></div>
+                                    <div className="grow border-t border-dashed border-white"></div>
                                     <div className="size-1 bg-white rounded-full"></div>
-                                    <div className="flex-grow border-t border-dashed border-white"></div>
+                                    <div className="grow border-t border-dashed border-white"></div>
                                 </div>
 
                                 {/* ช่องกรอกรหัสใหม่ */}
@@ -103,12 +103,12 @@ export default function PasswordChangeModal() {
                                 <Button
                                     variant="light"
                                     onPress={onClose}
-                                    className="flex-grow text-slate-400 font-bold text-xs uppercase tracking-widest"
+                                    className="grow text-slate-400 font-bold text-xs uppercase tracking-widest"
                                 >
                                     ยกเลิก
                                 </Button>
                                 <Button
-                                    className="flex-grow bg-blue-600 hover:bg-blue-500 text-white font-bold text-xs uppercase tracking-widest shadow-lg shadow-blue-900/40"
+                                    className="grow bg-blue-600 hover:bg-blue-500 text-white font-bold text-xs uppercase tracking-widest shadow-lg shadow-blue-900/40"
                                     onPress={() => {
                                         onClose();
                                     }}

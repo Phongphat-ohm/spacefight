@@ -4,7 +4,7 @@ export default function ProfileCard() {
             {/* --- 1. Top Card: Profile & Greeting --- */}
             <div className="w-full max-w-sm bg-white/10 backdrop-blur-xl rounded-[2.5rem] border border-white/20 shadow-2xl p-6 pt-0 relative mb-6">
                 <div className="flex flex-col items-center">
-                    <div className="relative -translate-y-16 mb-[-55px]">
+                    <div className="relative -translate-y-16 -mb-13.75">
                         <div className="absolute inset-0 bg-blue-500/20 blur-2xl rounded-full"></div>
                         <img src="/planets/mars.png" className="size-32 object-contain relative z-10 drop-shadow-2xl transition-transform hover:scale-110" alt="profile" />
                     </div>
@@ -17,8 +17,8 @@ export default function ProfileCard() {
                 {/* เส้นประหัวลูกศรคั่นส่วนข้อมูล */}
                 <div className="flex items-center gap-2 my-5">
                     <div className="size-2 bg-blue-400 rounded-full shadow-[0_0_8px_#60a5fa] animate-ping"></div>
-                    <div className="flex-grow border-t-2 border-dashed border-blue-400/30"></div>
-                    <div className="w-0 h-0 border-y-[6px] border-y-transparent border-l-[10px] border-l-blue-400"></div>
+                    <div className="grow border-t-2 border-dashed border-blue-400/30"></div>
+                    <div className="w-0 h-0 border-y-[6px] border-y-transparent border-l-10 border-l-blue-400"></div>
                 </div>
 
                 <div className="grid grid-cols-2 gap-4">

@@ -72,8 +72,8 @@ export default function AddFriendModal() {
                                     {/* เส้นประหัวลูกศร (Dashed Arrow Divider) */}
                                     <div className="flex items-center gap-2 px-2">
                                         <div className="size-1 bg-blue-400 rounded-full shadow-[0_0_8px_#60a5fa]"></div>
-                                        <div className="flex-grow border-t border-dashed border-blue-400/20"></div>
-                                        <div className="w-0 h-0 border-y-[4px] border-y-transparent border-l-[8px] border-l-blue-400"></div>
+                                        <div className="grow border-t border-dashed border-blue-400/20"></div>
+                                        <div className="w-0 h-0 border-y-4 border-y-transparent border-l-8 border-l-blue-400"></div>
                                     </div>
 
                                     <p className="text-[9px] text-center text-slate-500 font-mono leading-relaxed">
@@ -87,7 +87,7 @@ export default function AddFriendModal() {
                                 <Button
                                     variant="light"
                                     onPress={onClose}
-                                    className="flex-grow text-slate-400 font-bold text-xs uppercase"
+                                    className="grow text-slate-400 font-bold text-xs uppercase"
                                 >
                                     ยกเลิก
                                 </Button>
@@ -96,7 +96,7 @@ export default function AddFriendModal() {
                                         handleAddFriend();
                                         onClose();
                                     }}
-                                    className="flex-grow bg-blue-600 hover:bg-blue-500 text-white font-bold text-xs uppercase shadow-lg shadow-blue-900/40"
+                                    className="grow bg-blue-600 hover:bg-blue-500 text-white font-bold text-xs uppercase shadow-lg shadow-blue-900/40"
                                 >
                                     ส่งสัญญาณคำขอ
                                 </Button>

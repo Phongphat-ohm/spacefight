@@ -69,7 +69,7 @@ export default function FriendRequestNotification() {
                                             <div key={req.id} className="bg-white/5 border border-white/5 rounded-2xl p-3 flex flex-col gap-3">
                                                 <div className="flex items-center gap-3">
                                                     <img src={req.planet} className="size-10 object-contain" alt="avatar" />
-                                                    <div className="flex-grow">
+                                                    <div className="grow">
                                                         <h4 className="text-xs font-bold text-white uppercase">{req.name}</h4>
                                                         <p className="text-[9px] text-slate-500 font-mono">{req.time}</p>
                                                     </div>
@@ -77,13 +77,13 @@ export default function FriendRequestNotification() {
 
                                                 {/* เส้นประหัวลูกศรเล็กๆ คั่นปุ่ม */}
                                                 <div className="flex items-center gap-2 opacity-20">
-                                                    <div className="flex-grow border-t border-dashed border-white"></div>
+                                                    <div className="grow border-t border-dashed border-white"></div>
                                                     <div className="w-0 h-0 border-y-[3px] border-y-transparent border-l-[6px] border-l-white"></div>
                                                 </div>
 
                                                 <div className="flex gap-2">
                                                     <button
-                                                        className="flex-grow py-2 bg-emerald-500/20 hover:bg-emerald-500 text-emerald-400 hover:text-black rounded-xl text-[10px] font-bold transition-all uppercase"
+                                                        className="grow py-2 bg-emerald-500/20 hover:bg-emerald-500 text-emerald-400 hover:text-black rounded-xl text-[10px] font-bold transition-all uppercase"
                                                         onClick={() => setRequests(prev => prev.filter(r => r.id !== req.id))}
                                                     >
                                                         ยอมรับ

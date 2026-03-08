@@ -47,7 +47,7 @@ export default function Mission() {
                                 </div>
 
                                 <div className="mt-3 flex gap-2">
-                                    <button className="flex-grow py-2 bg-blue-500/10 hover:bg-blue-500 hover:text-white text-blue-400 rounded-xl text-[11px] font-bold transition-all border border-blue-500/20">
+                                    <button className="grow py-2 bg-blue-500/10 hover:bg-blue-500 hover:text-white text-blue-400 rounded-xl text-[11px] font-bold transition-all border border-blue-500/20">
                                         ตรวจสอบข้อมูล
                                     </button>
                                     <button className="px-4 py-2 bg-emerald-500 hover:bg-emerald-400 text-slate-900 rounded-xl text-[11px] font-black transition-all">
