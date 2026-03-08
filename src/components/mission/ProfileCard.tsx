@@ -3,6 +3,13 @@ export default function ProfileCard() {
         <>
             {/* --- 1. Top Card: Profile & Greeting --- */}
             <div className="w-full max-w-sm bg-white/10 backdrop-blur-xl rounded-[2.5rem] border border-white/20 shadow-2xl p-6 pt-0 relative mb-6">
+                <div className="absolute top-5 right-5">
+                    <button className="p-2 bg-red-500/10 border border-red-500/20 rounded-full hover:bg-red-500/30 transition-all group active:scale-90 shadow-lg shadow-red-950/20">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2.5} stroke="currentColor" className="size-4 text-red-400">
+                            <path strokeLinecap="round" strokeLinejoin="round" d="M5.636 5.636a9 9 0 1 0 12.728 0M12 3v9" />
+                        </svg>
+                    </button>
+                </div>
                 <div className="flex flex-col items-center">
                     <div className="relative -translate-y-16 -mb-13.75">
                         <div className="absolute inset-0 bg-blue-500/20 blur-2xl rounded-full"></div>

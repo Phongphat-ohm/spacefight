@@ -1,7 +1,6 @@
 "use client";
-
 import { motion } from "framer-motion";
-import { Chrome, Github, Mail, Lock } from "lucide-react"; // อย่าลืมลง lucide-react นะครับ
+import { Mail, Lock } from "lucide-react";
 import Link from "next/link";
 
 export default function LoginCard({ open, handleOpen }: { open: boolean, handleOpen: () => void }) {
